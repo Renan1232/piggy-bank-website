@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Baloo 2", cursive;
+    padding: 20px;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+p{
+    font-size: 14px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+span {
+    text-decoration: solid;
+}
+
+button {
+    font-family: "Poppins", cursive;
+    padding: 16px;
+    background-color: #f0908b;
+    border: none;
+    border-radius: 100px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
